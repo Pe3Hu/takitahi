@@ -1,0 +1,40 @@
+[gd_scene load_steps=5 format=3 uid="uid://dtqvs3qy3d2gd"]
+
+[ext_resource type="Script" path="res://scene/4/zone.gd" id="1_bfy11"]
+[ext_resource type="PackedScene" uid="uid://fnqowwvdm4s2" path="res://scene/5/creature.tscn" id="2_h3tvd"]
+[ext_resource type="PackedScene" uid="uid://p6l2rh35hfdo" path="res://scene/5/banner.tscn" id="3_5nffc"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_7paps"]
+
+[node name="Zone" type="MarginContainer"]
+custom_minimum_size = Vector2(5, 5)
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -20.0
+offset_top = -20.0
+offset_right = 20.0
+offset_bottom = 20.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("1_bfy11")
+
+[node name="BG" type="Panel" parent="."]
+visible = false
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_7paps")
+
+[node name="HBox" type="HBoxContainer" parent="."]
+layout_mode = 2
+theme_override_constants/separation = 0
+alignment = 1
+
+[node name="Creature" parent="HBox" instance=ExtResource("2_h3tvd")]
+layout_mode = 2
+
+[node name="Banner" parent="HBox" instance=ExtResource("3_5nffc")]
+layout_mode = 2

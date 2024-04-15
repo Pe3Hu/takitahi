@@ -1,0 +1,74 @@
+[
+ {
+  "title": "buffalo",
+  "range": 1,
+  "melee": 3,
+  "steel": 8,
+  "mana": 2,
+  "terrain": "plain"
+ },
+ {
+  "title": "horse",
+  "range": 2,
+  "melee": 2,
+  "steel": 5,
+  "mana": 5,
+  "terrain": "plain"
+ },
+ {
+  "title": "eagle",
+  "range": 3,
+  "melee": 1,
+  "steel": 2,
+  "mana": 8,
+  "terrain": "mountain"
+ },
+ {
+  "title": "ram",
+  "trap": 1,
+  "melee": 3,
+  "steel": 9,
+  "mana": 1,
+  "terrain": "mountain"
+ },
+ {
+  "title": "wolf",
+  "trap": 2,
+  "melee": 2,
+  "steel": 6,
+  "mana": 4,
+  "terrain": "forest"
+ },
+ {
+  "title": "snake",
+  "trap": 3,
+  "melee": 1,
+  "steel": 3,
+  "mana": 7,
+  "terrain": "plain"
+ },
+ {
+  "title": "owl",
+  "trap": 1,
+  "range": 3,
+  "steel": 1,
+  "mana": 9,
+  "terrain": "forest"
+ },
+ {
+  "title": "panther",
+  "trap": 2,
+  "range": 2,
+  "steel": 7,
+  "mana": 3,
+  "terrain": "forest"
+ },
+ {
+  "title": "spider",
+  "trap": 3,
+  "range": 1,
+  "steel": 4,
+  "mana": 6,
+  "terrain": "mountain"
+ }
+]
